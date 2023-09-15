@@ -1,0 +1,452 @@
+.container {
+    max-width: 93%;
+    padding: 0;
+    /* margin: auto; */
+}
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 8px 60px;
+}
+.first-1 {
+    padding: 0;
+}
+.first-1 img {
+    margin-right: 15px;
+}
+.first-1 a {
+    font-size: 14px;
+    line-height: 1.75rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.star {
+    margin-right: 20px;
+    border: 1px solid lightgrey;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.fa-star::after {
+    content: "762";
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    border-left: 1px solid;
+    /* margin-left: 10px; */
+    display: inline-block;
+    padding-left: 10px;
+}
+.btn {
+    font-size: 14px;
+    background: #6c2bd9;
+    color: white;
+    padding: 8px 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+}
+.nav-item {
+    padding-right: 12px;
+}
+
+.first-section img {
+    width: 100%;
+}
+
+.second {
+    margin-top: 7%;
+}
+.second h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.first-section p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.visit li{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    list-style: none;
+}
+.visit a {
+    font-size: 14px !important;
+}
+.view {
+    padding: 0.75rem 1.25rem;
+    font-size: 15px;
+    line-height: 1.25rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: white;
+    font-weight: 500;
+}
+.git-hub:hover {
+    color: blue;
+    /* background: ghostwhite; */
+}
+
+.digital {
+    padding-top: 5%;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.grid a:hover {
+    color: black;
+}
+.grid a {
+    font-size: 30px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+}
+.work-3 {
+    padding-bottom: 6%;
+    padding-top: 7%;
+}
+.work-3 img {
+    width: 100%;
+}
+.work-3 h3 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -0.025em;
+}
+.work-3 p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    padding-bottom: 32px;
+    margin: 0;
+}
+.work-3 li {
+    margin-top: 15px;
+}
+.work-3 ol {
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 17px;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+}
+.work-3 svg {
+    margin-right: 10px;
+    fill: #7e3af2 !important;
+}
+.work-4 {
+    padding: 0px;
+    padding-bottom: 5%;
+}
+.four-4 a {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #7e3af2;
+}
+.four-4 h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.025em;
+    padding-right: 35px;
+    margin: 15px 0;
+    font-weight: 800;
+}
+.four-4 {
+    padding-bottom: 6%;
+    padding-top: 6%;
+
+}
+
+.four-4 h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.four-4 p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    padding: 0px 20px 0 0;
+}
+.line {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 25px !important;
+}
+.icons-4 p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 17%;
+}
+.five-5 {
+    margin-bottom: 6%;
+    margin-top: 6%;
+    padding: 0px 20%;
+    text-align: center;
+}
+.five-5 img {
+    width: 50px;
+    border-radius: 50%;
+}
+.five-5 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+.five-5 span:after {
+    content: "CEO at Google";
+    font-weight: 300;
+    border-left: 2px solid lightslategray;
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.six-6 {
+    padding-bottom: 4%;
+    padding-top: 6%;
+    text-align: center;
+}
+.six-6 h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.six-6 p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    padding: 0px 18%;
+}
+.box-1 {
+    padding: 32px;
+    width: 31%;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+
+}
+.boxes-1{
+    display: flex;
+    gap: 2.4rem;
+    margin: 10px;
+    padding: 25px 0;
+
+}
+.grid svg {
+    fill: #808080;
+}
+.box-1 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    padding-left: 8px;
+}
+.box-1 h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+.box-1 svg {
+    margin-right: 10px;
+    fill: #6c2bd9;
+}
+.six-6 ol {
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+.btn-section {
+    padding: 8px 36%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 8px;
+    background: #7e3af2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+
+}
+.box-1 li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box-1 p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0;
+    margin: 0;
+}
+.box-1 h1 {
+    padding: 25px 0px;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+    margin: 0;
+}
+.seven-7 h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    letter-spacing: -0.025em;
+    line-height: 2.25rem;
+}
+.tabs {
+    padding: 0px 18%;
+    padding-bottom: 7%;
+}
+.tab-1 {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+.tab-1 h2 {
+    margin: 0;
+}
+.tab-1 button {
+    font-size: 14px;
+    padding: 10px 0px;
+    color: gray;
+    font-weight: 500;
+}
+.show-1 {
+    padding: 20px 0px;
+    font-size: 14px;
+    color: gray;
+}
+.show-1 ul{
+    padding-left: 20px;
+    margin: 0;
+    color: blue;
+}
+.color-b:not(.collapsed) {
+    color: black;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    background: none;
+    border-color: none !important;
+}
+.color-b:after {
+    background-size: 15px;
+    font-weight: 800 !important;
+}
+.today-star h1 {
+    font-size: 1.875rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    margin-bottom: 14px;
+}
+.today-star p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+.trail button {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    background: #6c2bd9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.today-star {
+    padding-top: 5%;
+    text-align:Center;
+    padding-bottom: 3%;
+}
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.foot h1 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.875rem;
+}
+.foot {
+    padding: 0 2.5rem;
+    gap: 44px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+.foot ul {
+    padding: 0;
+    list-style: none;
+}
+.foot a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+.foot li {
+    margin-bottom: 16px;
+}
+.first-2 {
+    text-align: center;
+    margin-top: 30px; 
+    /* margin-bottom: 20px; */
+}
+.first-2 p {
+    font-size: 14px;
+    line-height: 1.25rem;
+    padding: 15px 0px;
+    margin: 0;
+    color: grey;
+}
+.icons a {
+    color: grey;
+    float: left;
+    width: 40px;
+}
+.footer-last {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+
+@media only screen and (min-width: 392px) {
+    
+
+
+
+
+
+
+  } 
+
+  
